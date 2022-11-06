@@ -8,10 +8,10 @@ int FindThirdDigit (int InputDigit)
     {
         return  InputDigit / Convert.ToInt32(Math.Pow(10, capacity-3) ) % 10;
     }
-else
-{
-    return -1;
-}   
+    else
+    {
+        return -1;
+    }   
 }
 
 Console.WriteLine("Input number: ");
